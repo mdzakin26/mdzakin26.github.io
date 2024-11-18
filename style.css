@@ -1,33 +1,17 @@
 
-.carousel-item img {
-    max-height: 600px; /* Atur tinggi maksimum carousel */
-    object-fit: cover; /* Sesuaikan gambar tanpa pecah */
-    width: 200%; /* Gambar memenuhi lebar container */
-  }
-table {
-    width: 100%;
-    border-collapse: collapse;
-    margin: 20px 0;
-    background-color: #fff;
-}
-th, td {
-    padding: 12px;
-    text-align: left;
-    border: 1px solid #ddd;
-}
-th {
-    background-color: #004080;
-    color: white;
-}
-tr:hover {
-    background-color: #f1f1f1;
-}
- 
 body{
     background-image: url('gambar/bcg_putih.jpg');
     background-size: cover;
     
 }
+.carousel-item img {
+    max-height: 600px; /* Atur tinggi maksimum carousel */
+    object-fit: cover; /* Sesuaikan gambar tanpa pecah */
+    width: 200%; /* Gambar memenuhi lebar container */
+  }
+
+ 
+
 
 col{
     margin-top: 10px;
