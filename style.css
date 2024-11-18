@@ -1,10 +1,16 @@
 
 
 
-body{
-    background-image: url('gambar/bcg_putih.jpg');
-    background-size: cover;
-    
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('gambar/background.jpg'); /* Ganti dengan path gambar Anda */
+    background-size: cover; /* Gambar menyesuaikan ukuran layar */
+    background-position: center; /* Pusatkan gambar */
+    background-repeat: no-repeat; /* Hindari pengulangan gambar */
+    background-attachment: fixed; /* Gambar tetap saat scroll */
+    font-family: Arial, sans-serif;
+    color: black; /* Warna teks agar terlihat jelas */
 }
 
  
@@ -15,10 +21,10 @@ body{
     margin-bottom: 20px;
     border: 1px solid #ddd;
     border-radius: 10px;
-    background-color: #fff;
+    background-color: #ffff;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     overflow: hidden;
-    margin-top: 20px;
+    margin-top: 30px;
 }
 .comment-header {
     display: flex;
@@ -31,6 +37,7 @@ body{
     height: 40px;
     border-radius: 50%;
     margin-right: 10px;
+    border: 2px solid black;
 }
 .comment-header .username {
     font-weight: bold;
