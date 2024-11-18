@@ -1,15 +1,13 @@
 
+
+
 body{
     background-image: url('gambar/bcg_putih.jpg');
     background-size: cover;
     
 }
-.carousel-item img {
-    max-height: 600px; /* Atur tinggi maksimum carousel */
-    object-fit: cover; /* Sesuaikan gambar tanpa pecah */
-    width: 200%; /* Gambar memenuhi lebar container */
-  }
 
+ 
  
 
 
