@@ -1,3 +1,9 @@
+
+.carousel-item img {
+    max-height: 600px; /* Atur tinggi maksimum carousel */
+    object-fit: cover; /* Sesuaikan gambar tanpa pecah */
+    width: 200%; /* Gambar memenuhi lebar container */
+  }
 table {
     width: 100%;
     border-collapse: collapse;
@@ -15,4 +21,14 @@ th {
 }
 tr:hover {
     background-color: #f1f1f1;
+}
+ 
+body{
+    background-image: url('gambar/bcg.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+col{
+    margin-top: 10px;
 }
