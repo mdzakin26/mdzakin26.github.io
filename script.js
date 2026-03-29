@@ -39,7 +39,7 @@ document.addEventListener('DOMContentLoaded', () => {
   document.querySelectorAll('.project-card .btn').forEach(btn => {
     btn.addEventListener('click', (e) => {
       e.preventDefault();
-      alert('Preview belum diaktifkan — ingin saya tambahkan detail modal untuk project ini?');
+      alert('Preview not yet activated — would you like me to add a modal detail for this project?');
     });
   });
 });

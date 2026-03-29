@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
   <link rel="stylesheet" href="style.css">
-  <title>Portofolio</title>
+  <title>Portfolio</title>
   <style>html{scroll-behavior:smooth}</style>
 </head>
 <body>
@@ -19,12 +19,12 @@
       </button>
       <div class="collapse navbar-collapse" id="nav">
         <ul class="navbar-nav ms-auto nav-menu-modern">
-          <li class="nav-item"><a class="nav-link-modern" href="#about">Tentang</a></li>
-          <li class="nav-item"><a class="nav-link-modern" href="#projects">Proyek</a></li>
-          <li class="nav-item"><a class="nav-link-modern" href="#experience">Pengalaman</a></li>
+          <li class="nav-item"><a class="nav-link-modern" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link-modern" href="#projects">Projects</a></li>
+          <li class="nav-item"><a class="nav-link-modern" href="#experience">Experience</a></li>
           <li class="nav-item"><a class="nav-link-modern" href="#timeline">Timeline</a></li>
-          <li class="nav-item"><a class="nav-link-modern" href="#skills">Skill</a></li>
-          <li class="nav-item"><a class="nav-link-modern nav-contact-btn" href="#contact">Hubungi Saya</a></li>
+          <li class="nav-item"><a class="nav-link-modern" href="#skills">Skills</a></li>
+          <li class="nav-item"><a class="nav-link-modern nav-contact-btn" href="#contact">Contact Me</a></li>
         </ul>
       </div>
     </div>
@@ -35,34 +35,36 @@
     <div class="container hero-inner">
       <div class="row align-items-center">
         <div class="col-lg-6 text-white">
-          <h1 class="hero-title">Hai, saya Muhammad Dzaki Naufalianto</h1>
-          <p class="hero-sub">Mahasiswa Teknik Informatika — web developer & antusias tentang front-end projects dan event management.</p>
+          <h1 class="hero-title">Hi, I'm Muhammad Dzaki Naufalianto</h1>
+          <p class="hero-sub">Informatics Engineering Student — web developer & passionate about front-end projects and event management.</p>
           <div class="mt-4">
-            <a href="#contact" class="btn btn-primary btn-lg me-2">Hubungi Saya</a>
-            <a href="#projects" class="btn btn-outline-light btn-lg">Lihat Proyek</a>
+            <a href="#contact" class="btn btn-primary btn-lg me-2">Contact Me</a>
+            <a href="#projects" class="btn btn-outline-light btn-lg">View Projects</a>
           </div>
         </div>
         <div class="col-lg-6 text-center">
-          <img src="gambar/hima.jpg" alt="Foto Dzaki" class="hero-image shadow-lg">
+          <img src="gambar/hima.jpg" alt="Dzaki's Photo" class="hero-image shadow-lg">
         </div>
       </div>
     </div>
   </section>
 
-  <!-- PROYEK -->
+  <!-- PROJECTS -->
   <section id="projects" class="py-5">
     <div class="container">
-      <h2 class="mb-4">Proyek</h2>
+      <h2 class="mb-4">Projects</h2>
       <div class="row g-4">
         <div class="col-md-4">
           <div class="card project-card h-100">
-            <img src="gambar/hima.jpg" class="card-img-top" alt="Project 1">
+            <div style="height:180px; display:flex; align-items:center; justify-content:center; background:#f8f9fa; padding:20px;">
+              <img src="gambar/sijahit-logo.png" style="max-width:100%; max-height:100%; object-fit:contain;" alt="Project 1">
+            </div>
             <div class="card-body">
-              <h5 class="card-title">HIMA — Event Website</h5>
-              <p class="card-text text-muted">Website informatif untuk organisasi mahasiswa.</p>
+              <h5 class="card-title">SIJAHIT</h5>
+              <p class="card-text text-muted">web-based tailoring management system using Laravel. The application supports role-based access (admin and tailor), customer data management, measurement recording, and fabric management. Designed to improve workflow efficiency and ensure accurate and organized tailoring operations.</p>
             </div>
             <div class="card-footer bg-white border-0">
-              <a class="btn btn-sm btn-primary" href="#">Demo</a>
+              <a class="btn btn-sm btn-primary" href="https://www.figma.com/design/FjKxMqi8JPONuuBJ8y0omb/Multipurpose-Dashboard-UI-UX--Community-?t=4Ic4LAI2u1gx0EMu-1">Demo</a>
             </div>
           </div>
         </div>
@@ -71,7 +73,7 @@
             <img src="gambar/edesa-1.png" class="card-img-top" alt="Project 2">
             <div class="card-body">
               <h5 class="card-title">E-Desa</h5>
-              <p class="card-text text-muted">e-Desa merupakan aplikasi berbasis mobile/web yang dirancang untuk membantu masyarakat desa dalam mengakses informasi, edukasi, dan layanan digital desa secara mudah dan cepat. Aplikasi ini menyediakan berbagai fitur seperti profil pengguna, materi edukasi masyarakat, informasi desa, serta perkembangan aktivitas atau pembelajaran warga.</p>
+              <p class="card-text text-muted">E-Desa is a mobile/web application designed to help rural communities access information, education, and digital village services easily and quickly. This application provides various features such as user profiles, community education materials, village information, and updates on community activities or learning.</p>
             </div>
             <div class="card-footer bg-white border-0">
               <a class="btn btn-sm btn-primary" href="#">Detail</a>
@@ -80,10 +82,12 @@
         </div>
         <div class="col-md-4">
           <div class="card project-card h-100">
-            <img src="gambar/logo-custom.png" class="card-img-top" alt="Project 3">
+            <img src="gambar/fard.png" class="card-img-top" alt="Project 3">
             <div class="card-body">
-              <h5 class="card-title">Edesa</h5>
-              <p class="card-text text-muted">Kumpulan tugas dan proyek perkuliahan.</p>
+              <h5 class="card-title">Utama</h5>
+              <p class="card-text text-muted">Developed a web-based user management system using Laravel, Inertia.js, and Vue 3. The application enables administrators to manage user data, roles, and access permissions efficiently.
+
+Key features include user CRUD operations (create, read, update, delete), role-based access control using Spatie Permission, dynamic data tables with search and filtering, and a responsive user interface built with Tailwind CSS and shadcn components.</p>
             </div>
             <div class="card-footer bg-white border-0">
               <a class="btn btn-sm btn-primary" href="#">Repo</a>
@@ -94,10 +98,10 @@
     </div>
   </section>
 
-  <!-- PENDIDIKAN (dengan logo) -->
+  <!-- EDUCATION -->
   <section id="education" class="py-5">
     <div class="container">
-      <h2 class="mb-4">Pendidikan</h2>
+      <h2 class="mb-4">Education</h2>
       <div class="edu-grid reveal">
         <div class="edu-card">
           <img src="gambar/download.jpeg" alt="SD">
@@ -124,7 +128,7 @@
           <img src="gambar/lpkia.png" alt="LPKIA">
           <div class="edu-body">
             <strong>Institut Digital Ekonomi LPKIA</strong>
-            <div class="text-muted">2023 - Sekarang</div>
+            <div class="text-muted">2023 - Present</div>
           </div>
         </div>
       </div>
@@ -136,8 +140,8 @@
   <section id="experience" class="experience-section">
     <div class="container">
       <div class="experience-header text-center mb-5">
-        <h2 class="experience-title">Pengalaman Kerja</h2>
-        <p class="experience-subtitle">Pengalaman profesional dalam web development dan project management</p>
+        <h2 class="experience-title">Work Experience</h2>
+        <p class="experience-subtitle">Professional experience in web development and project management</p>
       </div>
 
       <div class="experience-timeline">
@@ -151,17 +155,17 @@
                   <svg class="experience-job-icon" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                     <path d="M20 6h-2V4c0-1.1-.9-2-2-2h-2c-1.1 0-2 .9-2 2v2h-4V4c0-1.1-.9-2-2-2H8c-1.1 0-2 .9-2 2v2H4c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V8c0-1.1-.9-2-2-2zm0 14H4V10h16v10z"/>
                   </svg>
-                  Magang Front-End Developer
+                  Front-End Developer Internship
                 </h4>
-                <p class="experience-company">Informatika LPKIA</p>
+                <p class="experience-company">LPKIA Informatics</p>
               </div>
               <span   class="experience-date">Jan 2024 - Present</span>
             </div>
             <ul class="experience-responsibilities">
-              <li>Mengembangkan antarmuka web responsif menggunakan HTML5, CSS3, dan JavaScript</li>
-              <li>Berkolaborasi dengan desainer UI/UX untuk mengimplementasikan mockup desain</li>
-              <li>Mengoptimalkan performa website dan meningkatkan page load time sebesar 30%</li>
-              <li>Memelihara dan melakukan debugging pada aplikasi web yang ada</li>
+              <li>Develop responsive web interfaces using HTML5, CSS3, and JavaScript</li>
+              <li>Collaborate with UI/UX designers to implement design mockups</li>
+              <li>Optimize website performance and increase page load time by 30%</li>
+              <li>Maintain and debug existing web applications</li>
             </ul>
           </div>
         </div>
@@ -176,15 +180,15 @@
                   <svg class="experience-job-icon" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                     <path d="M17 10.5V7c0-.55-.45-1-1-1H4c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1v-3.5l4 4v-11l-4 4z"/>
                   </svg>
-                  Spesialis Manajemen Event
+                  Event Management Specialist
                 </h4>
                 <p class="experience-company">Minime Management</p>
               </div>
               <span class="experience-date">Aug 2023 - Dec 2024</span>
             </div>
             <ul class="experience-responsibilities">
-              <li>Mengkoordinasikan dengan berbagai departemen dan vendor untuk eksekusi yang lancar</li>
-              <li>Memimpin tim 15+ volunteer dan mengelola budget event</li>
+              <li>Coordinate with various departments and vendors for smooth execution</li>
+              <li>Lead 15+ volunteer team and manage event budget</li>
             </ul>
           </div>
         </div>
@@ -206,10 +210,10 @@
               <span class="experience-date">2023 - Present</span>
             </div>
             <ul class="experience-responsibilities">
-              <li>Membangun website custom untuk bisnis kecil dan startup</li>
-              <li>Menggunakan teknologi web modern: Bootstrap, JavaScript frameworks</li>
-              <li>Menyediakan layanan maintenance dan support website kepada client</li>
-              <li>Mengelola requirement client dan deliver projects tepat waktu</li>
+              <li>Build custom websites for small businesses and startups</li>
+              <li>Use modern web technologies: Bootstrap, JavaScript frameworks</li>
+              <li>Provide website maintenance and support services to clients</li>
+              <li>Manage client requirements and deliver projects on time</li>
             </ul>
           </div>
         </div>
@@ -221,8 +225,8 @@
   <section id="skills" class="skills-section">
     <div class="container">
       <div class="skills-header text-center mb-5">
-        <h2 class="skills-title">Skill Teknis</h2>
-        <p class="skills-subtitle">Kemampuan dalam teknologi web modern dan design tools</p>
+        <h2 class="skills-title">Technical Skills</h2>
+        <p class="skills-subtitle">Proficiency in modern web technologies and design tools</p>
       </div>
 
       <!-- Frontend Skills -->
@@ -234,16 +238,16 @@
               <path d="M20 10L30 85H70L80 10H20Z" fill="#E34C26"/>
               <path d="M70 85L60 50H50V20H75V30H60V40H70L65 80L50 85L35 80L36.5 60H47L46.5 75L50 77L54 75L54.5 60H37L35 20H65V30H50Z" fill="#ffffff"/>
             </svg>
-            <h5 class="skill-label">HTML5</h5>
-            <p class="skill-level">Expert</p>
+            <h5 class="skill-label">HTML</h5>
+            <p class="skill-level">Advanced</p>
           </div>
           <div class="skill-item">
             <svg class="skill-icon" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
               <path d="M20 10L30 85H70L80 10H20Z" fill="#1572B6"/>
               <path d="M70 85L60 50H50V20H75V30H60V40H70L65 80L50 85L35 80L36.5 60H47L46.5 75L50 77L54 75L54.5 60H37L35 20H65V30H50Z" fill="#ffffff"/>
             </svg>
-            <h5 class="skill-label">CSS3</h5>
-            <p class="skill-level">Expert</p>
+            <h5 class="skill-label">CSS</h5>
+            <p class="skill-level">Advanced</p>
           </div>
           <div class="skill-item">
             <svg class="skill-icon" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
@@ -252,6 +256,20 @@
             </svg>
             <h5 class="skill-label">JavaScript</h5>
             <p class="skill-level">Advanced</p>
+          </div>
+          <div class="skill-item">
+            <svg class="skill-icon" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+              <defs>
+                <linearGradient id="vueGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                  <stop offset="0%" style="stop-color:#4FC08D;stop-opacity:1" />
+                  <stop offset="100%" style="stop-color:#35495E;stop-opacity:1" />
+                </linearGradient>
+              </defs>
+              <polygon points="50,5 90,95 10,95" fill="url(#vueGrad)"/>
+              <text x="50" y="70" font-size="40" font-weight="bold" text-anchor="middle" fill="#ffffff">V</text>
+            </svg>
+            <h5 class="skill-label">Vue.js</h5>
+            <p class="skill-level">Intermediate</p>
           </div>
         </div>
       </div>
@@ -262,11 +280,30 @@
         <div class="skills-grid">
           <div class="skill-item">
             <svg class="skill-icon" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
-              <path d="M50 10C28 10 20 25 20 35C20 42 25 48 35 50C30 52 25 57 25 65C25 78 35 90 50 90C65 90 75 78 75 65C75 57 70 52 65 50C75 48 80 42 80 35C80 25 72 10 50 10Z" fill="#3776AB"/>
-              <path d="M50 20C60 20 65 25 65 32C65 38 60 43 50 43C40 43 35 38 35 32C35 25 40 20 50 20Z" fill="#FFD43B"/>
-              <path d="M50 55C62 55 70 60 70 68C70 76 62 85 50 85C38 85 30 76 30 68C30 60 38 55 50 55Z" fill="#3776AB"/>
+              <defs>
+                <linearGradient id="laravelGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                  <stop offset="0%" style="stop-color:#FF2D20;stop-opacity:1" />
+                  <stop offset="100%" style="stop-color:#CC1B1A;stop-opacity:1" />
+                </linearGradient>
+              </defs>
+              <path d="M82.3 20.5L50 4.2L17.7 20.5v17.3L50 53.1l32.3-15.3V20.5zM50 66.9L30.7 56.4v18.2L50 91.2l19.3-16.6V56.4L50 66.9z" fill="url(#laravelGrad)"/>
+              <path d="M82.3 37.8L77.5 40.1L50 26.9L22.5 40.1l-4.8-2.3L50 21.4l32.3 16.4z" fill="#FF2D20" opacity="0.8"/>
             </svg>
-            <h5 class="skill-label">Python</h5>
+            <h5 class="skill-label">Laravel</h5>
+            <p class="skill-level">Advanced</p>
+          </div>
+          <div class="skill-item">
+            <svg class="skill-icon" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+              <defs>
+                <linearGradient id="phpGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                  <stop offset="0%" style="stop-color:#777BB4;stop-opacity:1" />
+                  <stop offset="100%" style="stop-color:#5B6C8E;stop-opacity:1" />
+                </linearGradient>
+              </defs>
+              <rect x="10" y="20" width="80" height="60" rx="5" fill="url(#phpGrad)"/>
+              <text x="50" y="60" font-size="36" font-weight="bold" text-anchor="middle" fill="#ffffff">PHP</text>
+            </svg>
+            <h5 class="skill-label">PHP</h5>
             <p class="skill-level">Advanced</p>
           </div>
           <div class="skill-item">
@@ -280,19 +317,78 @@
           <div class="skill-item">
             <svg class="skill-icon" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
               <defs>
-                <linearGradient id="laravelGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-                  <stop offset="0%" style="stop-color:#FF2D20;stop-opacity:1" />
-                  <stop offset="100%" style="stop-color:#CC1B1A;stop-opacity:1" />
+                <linearGradient id="nodeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                  <stop offset="0%" style="stop-color:#68A063;stop-opacity:1" />
+                  <stop offset="100%" style="stop-color:#2D5016;stop-opacity:1" />
                 </linearGradient>
               </defs>
-              <path d="M82.3 20.5L50 4.2L17.7 20.5v17.3L50 53.1l32.3-15.3V20.5zM50 66.9L30.7 56.4v18.2L50 91.2l19.3-16.6V56.4L50 66.9z" fill="url(#laravelGrad)"/>
-              <path d="M82.3 37.8L77.5 40.1L50 26.9L22.5 40.1l-4.8-2.3L50 21.4l32.3 16.4z" fill="#FF2D20" opacity="0.8"/>
+              <path d="M50 10L90 30V70L50 90L10 70V30L50 10Z" fill="url(#nodeGrad)"/>
+              <text x="50" y="65" font-size="32" font-weight="bold" text-anchor="middle" fill="#ffffff">N</text>
             </svg>
-            <h5 class="skill-label">Laravel</h5>
+            <h5 class="skill-label">Node.js</h5>
             <p class="skill-level">Intermediate</p>
           </div>
+          <div class="skill-item">
+            <svg class="skill-icon" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+              <path d="M50 10C28 10 20 25 20 35C20 42 25 48 35 50C30 52 25 57 25 65C25 78 35 90 50 90C65 90 75 78 75 65C75 57 70 52 65 50C75 48 80 42 80 35C80 25 72 10 50 10Z" fill="#3776AB"/>
+              <path d="M50 20C60 20 65 25 65 32C65 38 60 43 50 43C40 43 35 38 35 32C35 25 40 20 50 20Z" fill="#FFD43B"/>
+              <path d="M50 55C62 55 70 60 70 68C70 76 62 85 50 85C38 85 30 76 30 68C30 60 38 55 50 55Z" fill="#3776AB"/>
+            </svg>
+            <h5 class="skill-label">Python</h5>
+            <p class="skill-level">Intermediate</p>
+          </div>
+        </div>
+      </div>
 
-      <!-- Design Tools -->
+      <!-- Design & Tools -->
+      <div class="skills-category mb-5">
+        <h4 class="category-title">Design & Tools</h4>
+        <div class="skills-grid">
+          <div class="skill-item">
+            <svg class="skill-icon" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+              <defs>
+                <linearGradient id="gitGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                  <stop offset="0%" style="stop-color:#F1502F;stop-opacity:1" />
+                  <stop offset="100%" style="stop-color:#D4441D;stop-opacity:1" />
+                </linearGradient>
+              </defs>
+              <circle cx="50" cy="50" r="40" fill="url(#gitGrad)"/>
+              <text x="50" y="60" font-size="32" font-weight="bold" text-anchor="middle" fill="#ffffff">G</text>
+            </svg>
+            <h5 class="skill-label">Git</h5>
+            <p class="skill-level">Advanced</p>
+          </div>
+          <div class="skill-item">
+            <svg class="skill-icon" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+              <defs>
+                <linearGradient id="figmaGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                  <stop offset="0%" style="stop-color:#F24E1E;stop-opacity:1" />
+                  <stop offset="50%" style="stop-color:#A259FF;stop-opacity:1" />
+                  <stop offset="100%" style="stop-color:#1ABCFE;stop-opacity:1" />
+                </linearGradient>
+              </defs>
+              <rect x="20" y="20" width="60" height="60" rx="12" fill="url(#figmaGrad)"/>
+              <text x="50" y="60" font-size="32" font-weight="bold" text-anchor="middle" fill="#ffffff">F</text>
+            </svg>
+            <h5 class="skill-label">Figma</h5>
+            <p class="skill-level">Intermediate</p>
+          </div>
+          <div class="skill-item">
+            <svg class="skill-icon" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+              <defs>
+                <linearGradient id="canvaGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                  <stop offset="0%" style="stop-color:#00BCD4;stop-opacity:1" />
+                  <stop offset="100%" style="stop-color:#0097A7;stop-opacity:1" />
+                </linearGradient>
+              </defs>
+              <rect x="10" y="10" width="80" height="80" rx="8" fill="url(#canvaGrad)"/>
+              <text x="50" y="60" font-size="28" font-weight="bold" text-anchor="middle" fill="#ffffff">C</text>
+            </svg>
+            <h5 class="skill-label">Canva</h5>
+            <p class="skill-level">Intermediate</p>
+          </div>
+        </div>
+      </div>
       
     </div>
   </section>
@@ -301,8 +397,8 @@
   <section id="contact" class="contact-section">
     <div class="container">
       <div class="contact-header text-center mb-5">
-        <h2 class="contact-title">Kontak</h2>
-        <p class="contact-subtitle">Memerlukan bantuan atau ingin berdiskusi? Hubungi saya dan saya akan merespon dengan cepat.</p>
+        <h2 class="contact-title">Contact</h2>
+        <p class="contact-subtitle">Need assistance or want to discuss? Contact me and I'll respond quickly.</p>
       </div>
 
       <!-- Contact Info Cards -->
@@ -312,8 +408,8 @@
             <div class="contact-card-icon">
               <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
             </div>
-            <h5 class="contact-card-title">Alamat</h5>
-            <p class="contact-card-text">Bandung, Jawa Barat, Indonesia</p>
+            <h5 class="contact-card-title">Address</h5>
+            <p class="contact-card-text">Bandung, West Java, Indonesia</p>
           </div>
         </div>
         <div class="col-md-4 mb-4">
@@ -321,8 +417,8 @@
             <div class="contact-card-icon">
               <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
             </div>
-            <h5 class="contact-card-title">Hubungi Saya</h5>
-            <p class="contact-card-text">+62 895-3898-3222</p>
+            <h5 class="contact-card-title">Contact Me</h5>
+            <p class="contact-card-text">+62 898-5675-158</p>
           </div>
         </div>
         <div class="col-md-4 mb-4">
@@ -330,7 +426,7 @@
             <div class="contact-card-icon">
               <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="2"></rect><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path></svg>
             </div>
-            <h5 class="contact-card-title">Email Saya</h5>
+            <h5 class="contact-card-title">My Email</h5>
             <p class="contact-card-text"><a href="mailto:dzakinaufal1126@gmail.com">dzakinaufal1126@gmail.com</a></p>
           </div>
         </div>
@@ -358,7 +454,7 @@
             </div>
           </div>
           <div class="text-center">
-            <button type="submit" class="btn-submit">Kirim Pesan</button>
+            <button type="submit" class="btn-submit">Send Message</button>
           </div>
         </form>
       </div>
@@ -371,29 +467,30 @@
       <div class="row footer-content">
         <div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
           <h5 class="footer-title">Dzaki</h5>
-          <p class="footer-desc">Mahasiswa Teknik Informatika dengan passion di web development dan front-end design.</p>
+          <p class="footer-desc">Informatics Engineering Student with passion for web development and front-end design.</p>
           <div class="footer-social">
             <a href="https://www.instagram.com/mdzakin_/" target="_blank" class="social-link">Instagram</a>
             <a href="https://github.com/mdzakin26/" target="_blank" class="social-link">GitHub</a>
+            <a href="https://www.linkedin.com/in/muhammad-dzaki-naufalianto-398829296/" target="_blank" class="social-link">LinkedIn</a>
           </div>
         </div>
         <div class="col-lg-2 col-md-6 mb-4 mb-lg-0">
-          <h5 class="footer-title">Link Cepat</h5>
+          <h5 class="footer-title">Quick Links</h5>
           <ul class="footer-links">
             <li><a href="#about">About</a></li>
-            <li><a href="#projects">Proyek</a></li>
+            <li><a href="#projects">Projects</a></li>
             <li><a href="#timeline">Timeline</a></li>
-            <li><a href="#skills">Skill</a></li>
-            <li><a href="#contact">Kontak</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
           </ul>
         </div>
         <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-          <h5 class="footer-title">Hubungi Saya</h5>
+          <h5 class="footer-title">Contact Me</h5>
           <p class="footer-contact"><a href="mailto:dzakinaufal1126@gmail.com">dzakinaufal1126@gmail.com</a></p>
         </div>
         <div class="col-lg-3 col-md-6">
-          <h5 class="footer-title">Skill</h5>
-          <p class="footer-skills">HTML • CSS • JavaScript • Python • Java</p>
+          <h5 class="footer-title">Skills</h5>
+          <p class="footer-skills">HTML • CSS • JavaScript • Python • Laravel • Php • Vue.js </p>
         </div>
       </div>
       <div class="footer-divider"></div>
@@ -415,17 +512,17 @@
       
       const btn = this.querySelector('.btn-submit');
       const originalText = btn.textContent;
-      btn.textContent = 'Mengirim...';
+      btn.textContent = 'Sending...';
       btn.disabled = true;
       
       emailjs.sendForm('service_0q0vy5c', 'template_hs5owug', this)
         .then(function() {
-          alert('Email terkirim berhasil!');
+          alert('Email sent successfully!');
           document.getElementById('contactForm').reset();
           btn.textContent = originalText;
           btn.disabled = false;
         }, function(error) {
-          alert('Gagal mengirim email: ' + error.text);
+          alert('Failed to send email: ' + error.text);
           btn.textContent = originalText;
           btn.disabled = false;
         });
