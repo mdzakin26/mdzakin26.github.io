@@ -1,533 +1,608 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="id">
+
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-  <link rel="stylesheet" href="style.css">
-  <title>Portfolio</title>
-  <style>html{scroll-behavior:smooth}</style>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Portfolio - Muhammad Dzaki Naufalianto</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: MyResume
+  * Template URL: https://bootstrapmade.com/free-html-bootstrap-template-my-resume/
+  * Updated: Jun 29 2024 with Bootstrap v5.3.3
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
 </head>
-<body>
-  <nav class="navbar navbar-expand-lg navbar-custom">
-    <div class="container">
-      <a class="navbar-brand brand-modern" href="#">Dzaki</a>
-      <button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav" aria-controls="nav" aria-expanded="false" aria-label="Toggle navigation">
-        <span></span>
-        <span></span>
-        <span></span>
-      </button>
-      <div class="collapse navbar-collapse" id="nav">
-        <ul class="navbar-nav ms-auto nav-menu-modern">
-          <li class="nav-item"><a class="nav-link-modern" href="#about">About</a></li>
-          <li class="nav-item"><a class="nav-link-modern" href="#projects">Projects</a></li>
-          <li class="nav-item"><a class="nav-link-modern" href="#experience">Experience</a></li>
-          <li class="nav-item"><a class="nav-link-modern" href="#timeline">Timeline</a></li>
-          <li class="nav-item"><a class="nav-link-modern" href="#skills">Skills</a></li>
-          <li class="nav-item"><a class="nav-link-modern nav-contact-btn" href="#contact">Contact Me</a></li>
-        </ul>
-      </div>
-    </div>
-  </nav>
 
-  <!-- HERO (two-column: text + photo) -->
-  <section class="hero" id="about">
-    <div class="container hero-inner">
-      <div class="row align-items-center">
-        <div class="col-lg-6 text-white">
-          <h1 class="hero-title">Hi, I'm Muhammad Dzaki Naufalianto</h1>
-          <p class="hero-sub">Informatics Engineering Student — web developer & passionate about front-end projects and event management.</p>
-          <div class="mt-4">
-            <a href="#contact" class="btn btn-primary btn-lg me-2">Contact Me</a>
-            <a href="#projects" class="btn btn-outline-light btn-lg">View Projects</a>
-          </div>
-        </div>
-        <div class="col-lg-6 text-center">
-          <img src="gambar/hima.jpg" alt="Dzaki's Photo" class="hero-image shadow-lg">
-        </div>
-      </div>
-    </div>
-  </section>
+<body class="index-page">
 
-  <!-- PROJECTS -->
-  <section id="projects" class="py-5">
-    <div class="container">
-      <h2 class="mb-4">Projects</h2>
-      <div class="row g-4">
-        <div class="col-md-4">
-          <div class="card project-card h-100">
-            <div style="height:180px; display:flex; align-items:center; justify-content:center; background:#f8f9fa; padding:20px;">
-              <img src="gambar/sijahit-logo.png" style="max-width:100%; max-height:100%; object-fit:contain;" alt="Project 1">
-            </div>
-            <div class="card-body">
-              <h5 class="card-title">SIJAHIT</h5>
-              <p class="card-text text-muted">web-based tailoring management system using Laravel. The application supports role-based access (admin and tailor), customer data management, measurement recording, and fabric management. Designed to improve workflow efficiency and ensure accurate and organized tailoring operations.</p>
-            </div>
-            <div class="card-footer bg-white border-0">
-              <a class="btn btn-sm btn-primary" href="https://www.figma.com/design/FjKxMqi8JPONuuBJ8y0omb/Multipurpose-Dashboard-UI-UX--Community-?t=4Ic4LAI2u1gx0EMu-1">Demo</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="card project-card h-100">
-            <img src="gambar/edesa-1.png" class="card-img-top" alt="Project 2">
-            <div class="card-body">
-              <h5 class="card-title">E-Desa</h5>
-              <p class="card-text text-muted">E-Desa is a mobile/web application designed to help rural communities access information, education, and digital village services easily and quickly. This application provides various features such as user profiles, community education materials, village information, and updates on community activities or learning.</p>
-            </div>
-            <div class="card-footer bg-white border-0">
-              <a class="btn btn-sm btn-primary" href="#">Detail</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="card project-card h-100">
-            <img src="gambar/fard.png" class="card-img-top" alt="Project 3">
-            <div class="card-body">
-              <h5 class="card-title">Utama</h5>
-              <p class="card-text text-muted">Developed a web-based user management system using Laravel, Inertia.js, and Vue 3. The application enables administrators to manage user data, roles, and access permissions efficiently.
+  <header id="header" class="header d-flex flex-column justify-content-center">
 
-Key features include user CRUD operations (create, read, update, delete), role-based access control using Spatie Permission, dynamic data tables with search and filtering, and a responsive user interface built with Tailwind CSS and shadcn components.</p>
+    <i class="header-toggle d-xl-none bi bi-list"></i>
+
+    <nav id="navmenu" class="navmenu">
+      <ul>
+        <li><a href="#hero" class="active"><i class="bi bi-house navicon"></i><span>Home</span></a></li>
+        <li><a href="#about"><i class="bi bi-person navicon"></i><span>About</span></a></li>
+        <li><a href="#resume"><i class="bi bi-file-earmark-text navicon"></i><span>Resume</span></a></li>
+        <li><a href="#skills"><i class="bi bi-lightning-charge navicon"></i><span>Skills</span></a></li>
+        <li><a href="#portfolio"><i class="bi bi-images navicon"></i><span>Portfolio</span></a></li>
+        <li><a href="#services"><i class="bi bi-hdd-stack navicon"></i><span>Experience</span></a></li>
+        <li><a href="#contact"><i class="bi bi-envelope navicon"></i><span>Contact</span></a></li>
+        <li><a href="assets/cv/Muhammad-Dzaki-CV.png?v=20260412" download="Muhammad-Dzaki-CV.png"><i class="bi bi-download navicon"></i><span>Download CV</span></a></li>
+      </ul>
+    </nav>
+
+  </header>
+
+  <main class="main">
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero section light-background">
+
+      <img src="assets/img/hero-bg.jpg" alt="">
+
+      <div class="container" data-aos="zoom-out">
+        <div class="row justify-content-center">
+          <div class="col-lg-9">
+            <h2>Muhammad Dzaki Naufalianto</h2>
+            <p>Fullstack Developer</p>
+            <div class="social-links">
+              <a href="https://www.instagram.com/mdzakin_/" target="_blank" rel="noopener noreferrer"><i class="bi bi-instagram"></i></a>
+              <a href="https://github.com/mdzakin26" target="_blank" rel="noopener noreferrer"><i class="bi bi-github"></i></a>
+              <a href="mailto:dzakinaufal1126@gmail.com"><i class="bi bi-envelope"></i></a>
             </div>
-            <div class="card-footer bg-white border-0">
-              <a class="btn btn-sm btn-primary" href="#">Repo</a>
+            <div class="mt-4">
+              <a href="assets/cv/Muhammad-Dzaki-CV.png?v=20260412" class="btn btn-primary" download="Muhammad-Dzaki-CV.png">
+                <i class="bi bi-download me-2"></i>Download CV (PNG)
+              </a>
             </div>
           </div>
         </div>
       </div>
-    </div>
-  </section>
 
-  <!-- EDUCATION -->
-  <section id="education" class="py-5">
-    <div class="container">
-      <h2 class="mb-4">Education</h2>
-      <div class="edu-grid reveal">
-        <div class="edu-card">
-          <img src="gambar/download.jpeg" alt="SD">
-          <div class="edu-body">
-            <strong>SDN RANCAMANYAR 01</strong>
-            <div class="text-muted">2012 - 2017</div>
-          </div>
-        </div>
-        <div class="edu-card">
-          <img src="gambar/be33.png" alt="SMP">
-          <div class="edu-body">
-            <strong>SMPN 03 BALEENDAH</strong>
-            <div class="text-muted">2017 - 2020</div>
-          </div>
-        </div>
-        <div class="edu-card">
-          <img src="gambar/logo-custom.png" alt="SMA">
-          <div class="edu-body">
-            <strong>SMA PLUS ASSALAM</strong>
-            <div class="text-muted">2020 - 2023</div>
-          </div>
-        </div>
-        <div class="edu-card">
-          <img src="gambar/lpkia.png" alt="LPKIA">
-          <div class="edu-body">
-            <strong>Institut Digital Ekonomi LPKIA</strong>
-            <div class="text-muted">2023 - Present</div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
- 
+    </section><!-- /Hero Section -->
 
-  <!-- EXPERIENCE -->
-  <section id="experience" class="experience-section">
-    <div class="container">
-      <div class="experience-header text-center mb-5">
-        <h2 class="experience-title">Work Experience</h2>
-        <p class="experience-subtitle">Professional experience in web development and project management</p>
-      </div>
+    <!-- About Section -->
+    <section id="about" class="about section">
 
-      <div class="experience-timeline">
-        <!-- Experience Item 1 -->
-        <div class="experience-item">
-          <div class="experience-marker"></div>
-          <div class="experience-card">
-            <div class="experience-header-card">
-              <div>
-                <h4 class="experience-job-title">
-                  <svg class="experience-job-icon" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M20 6h-2V4c0-1.1-.9-2-2-2h-2c-1.1 0-2 .9-2 2v2h-4V4c0-1.1-.9-2-2-2H8c-1.1 0-2 .9-2 2v2H4c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V8c0-1.1-.9-2-2-2zm0 14H4V10h16v10z"/>
-                  </svg>
-                  Front-End Developer Internship
-                </h4>
-                <p class="experience-company">LPKIA Informatics</p>
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>About</h2>
+        <p>Mahasiswa Teknik Informatika yang berfokus pada pengembangan web, UI front-end, dan manajemen event. Terbiasa mengerjakan project kolaboratif dan aktif dalam organisasi.</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4 justify-content-center">
+          <div class="col-lg-4">
+            <img src="assets/img/custom/hima.jpg" class="img-fluid about-profile-image" alt="Muhammad Dzaki Naufalianto">
+          </div>
+          <div class="col-lg-8 content">
+            <h2>Informatics Engineering Student &amp; Web Developer.</h2>
+            <p class="fst-italic py-3">
+              Saya memiliki minat kuat pada pengembangan website modern, terutama pada front-end development, manajemen sistem berbasis web, dan kolaborasi tim.
+            </p>
+            <div class="row">
+              <div class="col-lg-6">
+                <ul>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Website:</strong> <span>github.com/mdzakin26</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>Baleendah, Bandung</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Language:</strong> <span>Indonesia, English</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>TOEFL:</strong> <span>550</span></li>
+                </ul>
               </div>
-              <span   class="experience-date">Jan 2024 - Present</span>
+              <div class="col-lg-6">
+                <ul>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>Informatics Engineering</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>08985675158</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span>dzakinaufal1126@gmail.com</span></li>
+                  
+                  <li><i class="bi bi-chevron-right"></i> <strong>Focus:</strong> <span>Fullstack Web Development</span></li>
+                </ul>
+              </div>
             </div>
-            <ul class="experience-responsibilities">
-              <li>Develop responsive web interfaces using HTML5, CSS3, and JavaScript</li>
-              <li>Collaborate with UI/UX designers to implement design mockups</li>
-              <li>Optimize website performance and increase page load time by 30%</li>
-              <li>Maintain and debug existing web applications</li>
+            <p class="py-3">
+              Berpengalaman dalam pembuatan antarmuka web responsif menggunakan HTML, CSS, JavaScript, Laravel, Vue, dan Inertia. Saya juga aktif dalam organisasi mahasiswa serta kegiatan event management yang memperkuat komunikasi dan kepemimpinan tim.
+            </p>
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /About Section -->
+
+    <!-- Stats Section -->
+    <section id="stats" class="stats section">
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-3 col-md-6 d-flex flex-column align-items-center">
+            <i class="bi bi-emoji-smile"></i>
+            <div class="stats-item">
+              <span data-purecounter-start="0" data-purecounter-end="3" data-purecounter-duration="1" class="purecounter"></span>
+              <p>Featured Projects</p>
+            </div>
+          </div><!-- End Stats Item -->
+
+          <div class="col-lg-3 col-md-6 d-flex flex-column align-items-center">
+            <i class="bi bi-journal-richtext"></i>
+            <div class="stats-item">
+              <span data-purecounter-start="0" data-purecounter-end="4" data-purecounter-duration="1" class="purecounter"></span>
+              <p>Education Milestones</p>
+            </div>
+          </div><!-- End Stats Item -->
+
+          <div class="col-lg-3 col-md-6 d-flex flex-column align-items-center">
+            <i class="bi bi-headset"></i>
+            <div class="stats-item">
+              <span data-purecounter-start="0" data-purecounter-end="3" data-purecounter-duration="1" class="purecounter"></span>
+              <p>Work Experiences</p>
+            </div>
+          </div><!-- End Stats Item -->
+
+          <div class="col-lg-3 col-md-6 d-flex flex-column align-items-center">
+            <i class="bi bi-people"></i>
+            <div class="stats-item">
+              <span data-purecounter-start="0" data-purecounter-end="9" data-purecounter-duration="1" class="purecounter"></span>
+              <p>Core Skills</p>
+            </div>
+          </div><!-- End Stats Item -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Stats Section -->
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Skills</h2>
+        <p>Kemampuan saya mencakup web development, bahasa, dan keterampilan profesional untuk kolaborasi tim.</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row skills-content skills-animation">
+
+          <div class="col-lg-6">
+
+            <div class="progress">
+              <span class="skill"><span>HTML</span> <i class="val">90%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div><!-- End Skills Item -->
+
+            <div class="progress">
+              <span class="skill"><span>CSS</span> <i class="val">85%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div><!-- End Skills Item -->
+
+            <div class="progress">
+              <span class="skill"><span>JavaScript</span> <i class="val">80%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div><!-- End Skills Item -->
+
+            <div class="progress">
+              <span class="skill"><span>Bootstrap</span> <i class="val">85%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div><!-- End Skills Item -->
+
+          </div>
+
+          <div class="col-lg-6">
+
+            <div class="progress">
+              <span class="skill"><span>Laravel &amp; PHP</span> <i class="val">80%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div><!-- End Skills Item -->
+
+            <div class="progress">
+              <span class="skill"><span>Vue.js &amp; Inertia.js</span> <i class="val">75%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div><!-- End Skills Item -->
+
+            <div class="progress">
+              <span class="skill"><span>Python &amp; Java</span> <i class="val">70%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div><!-- End Skills Item -->
+
+            <div class="progress">
+              <span class="skill"><span>Microsoft Office</span> <i class="val">85%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div><!-- End Skills Item -->
+
+          </div>
+
+        </div>
+
+        <div class="row mt-4" data-aos="fade-up" data-aos-delay="150">
+          <div class="col-lg-6">
+            <h5>Language Skills</h5>
+            <ul>
+              <li>Indonesian: Native</li>
+              <li>English: Intermediate (TOEFL 550)</li>
+            </ul>
+          </div>
+          <div class="col-lg-6">
+            <h5>Professional Skills</h5>
+            <ul>
+              <li>Time Management</li>
+              <li>Graphic Design (Adobe Photoshop &amp; Illustrator)</li>
+              <li>Public Speaking</li>
             </ul>
           </div>
         </div>
 
-        <!-- Experience Item 2 -->
-        <div class="experience-item">
-          <div class="experience-marker"></div>
-          <div class="experience-card">
-            <div class="experience-header-card">
-              <div>
-                <h4 class="experience-job-title">
-                  <svg class="experience-job-icon" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M17 10.5V7c0-.55-.45-1-1-1H4c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1v-3.5l4 4v-11l-4 4z"/>
-                  </svg>
-                  Event Management Specialist
-                </h4>
-                <p class="experience-company">Minime Management</p>
+      </div>
+
+    </section><!-- /Skills Section -->
+
+    <!-- Resume Section -->
+    <section id="resume" class="resume section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Resume</h2>
+        <p>Ringkasan pengalaman akademik, organisasi, dan profesional yang membentuk kompetensi saya di bidang teknologi dan manajemen event.</p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row">
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <h3 class="resume-title">Summary</h3>
+
+            <div class="resume-item pb-0">
+              <h4>Muhammad Dzaki Naufalianto</h4>
+              <p><em>Mahasiswa Teknik Informatika yang aktif membangun aplikasi web, terlibat dalam organisasi kampus, dan berpengalaman dalam koordinasi event.</em></p>
+              <ul>
+                <li>Baleendah, Bandung</li>
+                <li>08985675158</li>
+                <li>dzakinaufal1126@gmail.com</li>
+                <li>github.com/mdzakin26</li>
+              </ul>
+            </div><!-- Edn Resume Item -->
+
+            <h3 class="resume-title">Education</h3>
+            <div class="resume-item">
+              <h4>Institut Digital Ekonomi LPKIA</h4>
+              <h5>2023 - Present</h5>
+              <p><em>Informatics Engineering</em></p>
+              <p>Fokus pada pengembangan perangkat lunak, web development, dan praktik kolaborasi project berbasis teknologi.</p>
+            </div><!-- Edn Resume Item -->
+
+            <div class="resume-item">
+              <h4>SMA Plus Assalam</h4>
+              <h5>2020 - 2023</h5>
+              <p><em>Science Major (IPA)</em></p>
+              <p>Mengembangkan fondasi analitis dan problem solving yang menjadi dasar studi informatika saat ini.</p>
+            </div><!-- Edn Resume Item -->
+
+          </div>
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+            <h3 class="resume-title">Professional Experience</h3>
+            <div class="resume-item">
+              <h4>Front-End Developer Internship</h4>
+              <h5>Jan 2024 - Present</h5>
+              <p><em>LPKIA Informatics</em></p>
+              <ul>
+                <li>Mengembangkan antarmuka web responsif menggunakan HTML5, CSS3, dan JavaScript.</li>
+                <li>Berkolaborasi dengan tim UI/UX untuk implementasi desain ke aplikasi web.</li>
+                <li>Mengoptimalkan performa halaman dan pemeliharaan aplikasi existing.</li>
+              </ul>
+            </div><!-- Edn Resume Item -->
+
+            <div class="resume-item">
+              <h4>Event Management Specialist</h4>
+              <h5>Aug 2023 - Dec 2024</h5>
+              <p><em>Minime Management</em></p>
+              <ul>
+                <li>Mengatur koordinasi tim dan vendor untuk kelancaran event.</li>
+                <li>Memimpin relawan dan memastikan timeline serta kebutuhan operasional terpenuhi.</li>
+              </ul>
+            </div><!-- Edn Resume Item -->
+
+            <div class="resume-item">
+              <h4>Freelancer Web Development</h4>
+              <h5>2023 - Present</h5>
+              <p><em>Self-employed</em></p>
+              <ul>
+                <li>Membangun website custom untuk bisnis kecil dan kebutuhan personal branding.</li>
+                <li>Menggunakan stack modern seperti Laravel, Inertia.js, Vue 3, dan Bootstrap.</li>
+              </ul>
+            </div><!-- Edn Resume Item -->
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- /Resume Section -->
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Portfolio</h2>
+        <p>Beberapa project yang pernah saya kerjakan dalam bidang web development dan UI.</p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
+
+          <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
+            <li data-filter="*" class="filter-active">All</li>
+            <li data-filter=".filter-app">Web App</li>
+            <li data-filter=".filter-product">UI/UX</li>
+            <li data-filter=".filter-branding">System</li>
+          </ul><!-- End Portfolio Filters -->
+
+          <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+              <img src="assets/img/custom/sijahit-logo.png" class="img-fluid" alt="SIJAHIT">
+              <div class="portfolio-info">
+                <h4>SIJAHIT</h4>
+                <p>Sistem manajemen penjahitan berbasis web dengan Laravel.</p>
+                <a href="assets/img/custom/sijahit-logo.png" title="SIJAHIT" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
               </div>
-              <span class="experience-date">Aug 2023 - Dec 2024</span>
-            </div>
-            <ul class="experience-responsibilities">
-              <li>Coordinate with various departments and vendors for smooth execution</li>
-              <li>Lead 15+ volunteer team and manage event budget</li>
-            </ul>
-          </div>
-        </div>
+            </div><!-- End Portfolio Item -->
 
-        <!-- Experience Item 3 -->
-        <div class="experience-item">
-          <div class="experience-marker"></div>
-          <div class="experience-card">
-            <div class="experience-header-card">
-              <div>
-                <h4 class="experience-job-title">
-                  <svg class="experience-job-icon" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
-                  </svg>
-                  Freelancer Web Development
-                </h4>
-                <p class="experience-company">Self-employed</p>
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
+              <img src="assets/img/custom/edesa-1.png" class="img-fluid" alt="E-Desa">
+              <div class="portfolio-info">
+                <h4>E-Desa</h4>
+                <p>Aplikasi digital desa untuk informasi, edukasi, dan layanan masyarakat.</p>
+                <a href="assets/img/custom/edesa-1.png" title="E-Desa" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
               </div>
-              <span class="experience-date">2023 - Present</span>
-            </div>
-            <ul class="experience-responsibilities">
-              <li>Build custom websites for small businesses and startups</li>
-              <li>Use modern web technologies: Bootstrap, JavaScript frameworks</li>
-              <li>Provide website maintenance and support services to clients</li>
-              <li>Manage client requirements and deliver projects on time</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+            </div><!-- End Portfolio Item -->
 
-  <!-- SKILLS -->
-  <section id="skills" class="skills-section">
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
+              <img src="assets/img/custom/fard.png" class="img-fluid" alt="Utama User Management">
+              <div class="portfolio-info">
+                <h4>Utama User Management</h4>
+                <p>Sistem manajemen user dengan Laravel, Inertia.js, dan Vue 3.</p>
+                <a href="assets/img/custom/fard.png" title="Utama User Management" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div><!-- End Portfolio Item --></div><!-- End Portfolio Container -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Portfolio Section -->
+
+    <!-- Services Section -->
+    <section id="services" class="services section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Experience Highlights</h2>
+        <p>Peran dan kontribusi utama saya di bidang teknologi, organisasi, dan manajemen event.</p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="service-item item-cyan position-relative">
+              <div class="icon">
+                <svg width="100" height="100" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
+                  <path stroke="none" stroke-width="0" fill="#f5f5f5" d="M300,521.0016835830174C376.1290562159157,517.8887921683347,466.0731472004068,529.7835943286574,510.70327084640275,468.03025145048787C554.3714126377745,407.6079735673963,508.03601936045806,328.9844924480964,491.2728898941984,256.3432110539036C474.5976632858925,184.082847569629,479.9380746630129,96.60480741107993,416.23090153303,58.64404602377083C348.86323505073057,18.502131276798302,261.93793281208167,40.57373210992963,193.5410806939664,78.93577620505333C130.42746243093433,114.334589627462,98.30271207620316,179.96522072025542,76.75703585869454,249.04625023123273C51.97151888228291,328.5150500222984,13.704378332031375,421.85034740162234,66.52175969318436,486.19268352777647C119.04800174914682,550.1803526380478,217.28368757567262,524.383925680826,300,521.0016835830174"></path>
+                </svg>
+                <i class="bi bi-code-slash"></i>
+              </div>
+              <a href="#" class="stretched-link">
+                <h3>Front-End Development</h3>
+              </a>
+              <p>Membangun antarmuka web responsif dengan HTML, CSS, JavaScript, Bootstrap, Vue, dan Inertia.</p>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="service-item item-orange position-relative">
+              <div class="icon">
+                <svg width="100" height="100" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
+                  <path stroke="none" stroke-width="0" fill="#f5f5f5" d="M300,582.0697525312426C382.5290701553225,586.8405444964366,449.9789794690241,525.3245884688669,502.5850820975895,461.55621195738473C556.606425686781,396.0723002908107,615.8543463187945,314.28637112970534,586.6730223649479,234.56875336149918C558.9533121215079,158.8439757836574,454.9685369536778,164.00468322053177,381.49747125262974,130.76875717737553C312.15926192815925,99.40240125094834,248.97055460311594,18.661163978235184,179.8680185752513,50.54337015887873C110.5421016452524,82.52863877960104,119.82277516462835,180.83849132639028,109.12597500060166,256.43424936330496C100.08760227029461,320.3096726198365,92.17705696193138,384.0621239912766,124.79988738764834,439.7174275375508C164.83382741302287,508.01625554203684,220.96474134820875,577.5009287672846,300,582.0697525312426"></path>
+                </svg>
+                <i class="bi bi-kanban"></i>
+              </div>
+              <a href="#" class="stretched-link">
+                <h3>Project &amp; Team Collaboration</h3>
+              </a>
+              <p>Terbiasa berkolaborasi lintas tim untuk implementasi desain, perbaikan bug, dan peningkatan performa aplikasi.</p>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="service-item item-teal position-relative">
+              <div class="icon">
+                <svg width="100" height="100" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
+                  <path stroke="none" stroke-width="0" fill="#f5f5f5" d="M300,541.5067337569781C382.14930387511276,545.0595476570109,479.8736841581634,548.3450877840088,526.4010558755058,480.5488172755941C571.5218469581645,414.80211281144784,517.5187510058486,332.0715597781072,496.52539010469104,255.14436215662573C477.37192572678356,184.95920475031193,473.57363656557914,105.61284051026155,413.0603344069578,65.22779650032875C343.27470386102294,18.654635553484475,251.2091493199835,5.337323636656869,175.0934190732945,40.62881213300186C97.87086631185822,76.43348514350839,51.98124368387456,156.15599469081315,36.44837278890362,239.84606092416172C21.716077023791087,319.22268207091537,43.775223500013084,401.1760424656574,96.891909868211,461.97329694683043C147.22146801428983,519.5804099606455,223.5754009179313,538.201503339737,300,541.5067337569781"></path>
+                </svg>
+                <i class="bi bi-people"></i>
+              </div>
+              <a href="#" class="stretched-link">
+                <h3>Event Management</h3>
+              </a>
+              <p>Mengatur koordinasi event dan komunikasi tim saat aktif di Minime Management serta organisasi kampus.</p>
+            </div>
+          </div><!-- End Service Item --></div>
+
+      </div>
+
+    </section><!-- /Services Section --><!-- Contact Section -->
+    <section id="contact" class="contact section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Contact</h2>
+        <p>Hubungi saya untuk kolaborasi project web development atau kebutuhan event management.</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade" data-aos-delay="100">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-4">
+            <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="200">
+              <i class="bi bi-geo-alt flex-shrink-0"></i>
+              <div>
+                <h3>Address</h3>
+                <p>Baleendah, Bandung, Indonesia</p>
+              </div>
+            </div><!-- End Info Item -->
+
+            <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="300">
+              <i class="bi bi-telephone flex-shrink-0"></i>
+              <div>
+                <h3>Phone</h3>
+                <p><a href="tel:08985675158">08985675158</a></p>
+              </div>
+            </div><!-- End Info Item -->
+
+            <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="400">
+              <i class="bi bi-envelope flex-shrink-0"></i>
+              <div>
+                <h3>Email</h3>
+                <p>dzakinaufal1126@gmail.com</p>
+              </div>
+            </div><!-- End Info Item -->
+
+          </div>
+
+          <div class="col-lg-8">
+            <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="200">
+              <div class="row gy-4">
+
+                <div class="col-md-6">
+                  <input type="text" name="name" class="form-control" placeholder="Your Name" required="">
+                </div>
+
+                <div class="col-md-6 ">
+                  <input type="email" class="form-control" name="email" placeholder="Your Email" required="">
+                </div>
+
+                <div class="col-md-12">
+                  <input type="text" class="form-control" name="subject" placeholder="Subject" required="">
+                </div>
+
+                <div class="col-md-12">
+                  <textarea class="form-control" name="message" rows="6" placeholder="Message" required=""></textarea>
+                </div>
+
+                <div class="col-md-12 text-center">
+                  <div class="loading">Loading</div>
+                  <div class="error-message"></div>
+                  <div class="sent-message">Your message has been sent. Thank you!</div>
+
+                  <button type="submit">Send Message</button>
+                </div>
+
+              </div>
+            </form>
+          </div><!-- End Contact Form -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Contact Section -->
+
+  </main>
+
+  <footer id="footer" class="footer position-relative light-background">
     <div class="container">
-      <div class="skills-header text-center mb-5">
-        <h2 class="skills-title">Technical Skills</h2>
-        <p class="skills-subtitle">Proficiency in modern web technologies and design tools</p>
+      <h3 class="sitename">Muhammad Dzaki Naufalianto</h3>
+      <p>Informatics Engineering Student with interests in web development, UI implementation, and community-driven collaboration.</p>
+      <div class="social-links d-flex justify-content-center">
+        <a href="https://www.instagram.com/mdzakin_/" target="_blank" rel="noopener noreferrer"><i class="bi bi-instagram"></i></a>
+        <a href="https://github.com/mdzakin26" target="_blank" rel="noopener noreferrer"><i class="bi bi-github"></i></a>
+        <a href="mailto:dzakinaufal1126@gmail.com"><i class="bi bi-envelope"></i></a>
       </div>
-
-      <!-- Frontend Skills -->
-      <div class="skills-category mb-5">
-        <h4 class="category-title">Frontend Development</h4>
-        <div class="skills-grid">
-          <div class="skill-item">
-            <svg class="skill-icon" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
-              <path d="M20 10L30 85H70L80 10H20Z" fill="#E34C26"/>
-              <path d="M70 85L60 50H50V20H75V30H60V40H70L65 80L50 85L35 80L36.5 60H47L46.5 75L50 77L54 75L54.5 60H37L35 20H65V30H50Z" fill="#ffffff"/>
-            </svg>
-            <h5 class="skill-label">HTML</h5>
-            <p class="skill-level">Advanced</p>
-          </div>
-          <div class="skill-item">
-            <svg class="skill-icon" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
-              <path d="M20 10L30 85H70L80 10H20Z" fill="#1572B6"/>
-              <path d="M70 85L60 50H50V20H75V30H60V40H70L65 80L50 85L35 80L36.5 60H47L46.5 75L50 77L54 75L54.5 60H37L35 20H65V30H50Z" fill="#ffffff"/>
-            </svg>
-            <h5 class="skill-label">CSS</h5>
-            <p class="skill-level">Advanced</p>
-          </div>
-          <div class="skill-item">
-            <svg class="skill-icon" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
-              <rect x="10" y="10" width="80" height="80" rx="5" fill="#F7DF1E"/>
-              <text x="50" y="65" font-size="50" font-weight="bold" text-anchor="middle" fill="#000000">JS</text>
-            </svg>
-            <h5 class="skill-label">JavaScript</h5>
-            <p class="skill-level">Advanced</p>
-          </div>
-          <div class="skill-item">
-            <svg class="skill-icon" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
-              <defs>
-                <linearGradient id="vueGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-                  <stop offset="0%" style="stop-color:#4FC08D;stop-opacity:1" />
-                  <stop offset="100%" style="stop-color:#35495E;stop-opacity:1" />
-                </linearGradient>
-              </defs>
-              <polygon points="50,5 90,95 10,95" fill="url(#vueGrad)"/>
-              <text x="50" y="70" font-size="40" font-weight="bold" text-anchor="middle" fill="#ffffff">V</text>
-            </svg>
-            <h5 class="skill-label">Vue.js</h5>
-            <p class="skill-level">Intermediate</p>
-          </div>
+      <div class="container">
+        <div class="copyright">
+          <span>Copyright</span> <strong class="px-1 sitename">Dzaki</strong> <span>All Rights Reserved</span>
         </div>
-      </div>
-
-      <!-- Backend & Languages -->
-      <div class="skills-category mb-5">
-        <h4 class="category-title">Backend & Programming</h4>
-        <div class="skills-grid">
-          <div class="skill-item">
-            <svg class="skill-icon" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
-              <defs>
-                <linearGradient id="laravelGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-                  <stop offset="0%" style="stop-color:#FF2D20;stop-opacity:1" />
-                  <stop offset="100%" style="stop-color:#CC1B1A;stop-opacity:1" />
-                </linearGradient>
-              </defs>
-              <path d="M82.3 20.5L50 4.2L17.7 20.5v17.3L50 53.1l32.3-15.3V20.5zM50 66.9L30.7 56.4v18.2L50 91.2l19.3-16.6V56.4L50 66.9z" fill="url(#laravelGrad)"/>
-              <path d="M82.3 37.8L77.5 40.1L50 26.9L22.5 40.1l-4.8-2.3L50 21.4l32.3 16.4z" fill="#FF2D20" opacity="0.8"/>
-            </svg>
-            <h5 class="skill-label">Laravel</h5>
-            <p class="skill-level">Advanced</p>
-          </div>
-          <div class="skill-item">
-            <svg class="skill-icon" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
-              <defs>
-                <linearGradient id="phpGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-                  <stop offset="0%" style="stop-color:#777BB4;stop-opacity:1" />
-                  <stop offset="100%" style="stop-color:#5B6C8E;stop-opacity:1" />
-                </linearGradient>
-              </defs>
-              <rect x="10" y="20" width="80" height="60" rx="5" fill="url(#phpGrad)"/>
-              <text x="50" y="60" font-size="36" font-weight="bold" text-anchor="middle" fill="#ffffff">PHP</text>
-            </svg>
-            <h5 class="skill-label">PHP</h5>
-            <p class="skill-level">Advanced</p>
-          </div>
-          <div class="skill-item">
-            <svg class="skill-icon" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
-              <path d="M50 15C35 15 25 20 20 30C15 40 15 50 20 60C25 70 30 80 45 80C50 80 55 78 60 75V90C55 92 50 93 45 93C25 93 10 80 10 60C10 40 25 27 45 27C65 27 80 40 80 60C80 65 79 70 77 75L70 65C72 60 73 55 73 50C73 35 65 25 50 15Z" fill="#007396"/>
-              <circle cx="65" cy="45" r="12" fill="#FF6B6B"/>
-            </svg>
-            <h5 class="skill-label">Java</h5>
-            <p class="skill-level">Intermediate</p>
-          </div>
-          <div class="skill-item">
-            <svg class="skill-icon" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
-              <defs>
-                <linearGradient id="nodeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-                  <stop offset="0%" style="stop-color:#68A063;stop-opacity:1" />
-                  <stop offset="100%" style="stop-color:#2D5016;stop-opacity:1" />
-                </linearGradient>
-              </defs>
-              <path d="M50 10L90 30V70L50 90L10 70V30L50 10Z" fill="url(#nodeGrad)"/>
-              <text x="50" y="65" font-size="32" font-weight="bold" text-anchor="middle" fill="#ffffff">N</text>
-            </svg>
-            <h5 class="skill-label">Node.js</h5>
-            <p class="skill-level">Intermediate</p>
-          </div>
-          <div class="skill-item">
-            <svg class="skill-icon" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
-              <path d="M50 10C28 10 20 25 20 35C20 42 25 48 35 50C30 52 25 57 25 65C25 78 35 90 50 90C65 90 75 78 75 65C75 57 70 52 65 50C75 48 80 42 80 35C80 25 72 10 50 10Z" fill="#3776AB"/>
-              <path d="M50 20C60 20 65 25 65 32C65 38 60 43 50 43C40 43 35 38 35 32C35 25 40 20 50 20Z" fill="#FFD43B"/>
-              <path d="M50 55C62 55 70 60 70 68C70 76 62 85 50 85C38 85 30 76 30 68C30 60 38 55 50 55Z" fill="#3776AB"/>
-            </svg>
-            <h5 class="skill-label">Python</h5>
-            <p class="skill-level">Intermediate</p>
-          </div>
-        </div>
-      </div>
-
-      <!-- Design & Tools -->
-      <div class="skills-category mb-5">
-        <h4 class="category-title">Design & Tools</h4>
-        <div class="skills-grid">
-          <div class="skill-item">
-            <svg class="skill-icon" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
-              <defs>
-                <linearGradient id="gitGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-                  <stop offset="0%" style="stop-color:#F1502F;stop-opacity:1" />
-                  <stop offset="100%" style="stop-color:#D4441D;stop-opacity:1" />
-                </linearGradient>
-              </defs>
-              <circle cx="50" cy="50" r="40" fill="url(#gitGrad)"/>
-              <text x="50" y="60" font-size="32" font-weight="bold" text-anchor="middle" fill="#ffffff">G</text>
-            </svg>
-            <h5 class="skill-label">Git</h5>
-            <p class="skill-level">Advanced</p>
-          </div>
-          <div class="skill-item">
-            <svg class="skill-icon" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
-              <defs>
-                <linearGradient id="figmaGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-                  <stop offset="0%" style="stop-color:#F24E1E;stop-opacity:1" />
-                  <stop offset="50%" style="stop-color:#A259FF;stop-opacity:1" />
-                  <stop offset="100%" style="stop-color:#1ABCFE;stop-opacity:1" />
-                </linearGradient>
-              </defs>
-              <rect x="20" y="20" width="60" height="60" rx="12" fill="url(#figmaGrad)"/>
-              <text x="50" y="60" font-size="32" font-weight="bold" text-anchor="middle" fill="#ffffff">F</text>
-            </svg>
-            <h5 class="skill-label">Figma</h5>
-            <p class="skill-level">Intermediate</p>
-          </div>
-          <div class="skill-item">
-            <svg class="skill-icon" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
-              <defs>
-                <linearGradient id="canvaGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-                  <stop offset="0%" style="stop-color:#00BCD4;stop-opacity:1" />
-                  <stop offset="100%" style="stop-color:#0097A7;stop-opacity:1" />
-                </linearGradient>
-              </defs>
-              <rect x="10" y="10" width="80" height="80" rx="8" fill="url(#canvaGrad)"/>
-              <text x="50" y="60" font-size="28" font-weight="bold" text-anchor="middle" fill="#ffffff">C</text>
-            </svg>
-            <h5 class="skill-label">Canva</h5>
-            <p class="skill-level">Intermediate</p>
-          </div>
-        </div>
-      </div>
-      
-    </div>
-  </section>
-
-  <!-- CONTACT -->
-  <section id="contact" class="contact-section">
-    <div class="container">
-      <div class="contact-header text-center mb-5">
-        <h2 class="contact-title">Contact</h2>
-        <p class="contact-subtitle">Need assistance or want to discuss? Contact me and I'll respond quickly.</p>
-      </div>
-
-      <!-- Contact Info Cards -->
-      <div class="row contact-info-row mb-5">
-        <div class="col-md-4 mb-4">
-          <div class="contact-card">
-            <div class="contact-card-icon">
-              <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
-            </div>
-            <h5 class="contact-card-title">Address</h5>
-            <p class="contact-card-text">Bandung, West Java, Indonesia</p>
-          </div>
-        </div>
-        <div class="col-md-4 mb-4">
-          <div class="contact-card">
-            <div class="contact-card-icon">
-              <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
-            </div>
-            <h5 class="contact-card-title">Contact Me</h5>
-            <p class="contact-card-text">+62 898-5675-158</p>
-          </div>
-        </div>
-        <div class="col-md-4 mb-4">
-          <div class="contact-card">
-            <div class="contact-card-icon">
-              <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="2"></rect><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path></svg>
-            </div>
-            <h5 class="contact-card-title">My Email</h5>
-            <p class="contact-card-text"><a href="mailto:dzakinaufal1126@gmail.com">dzakinaufal1126@gmail.com</a></p>
-          </div>
-        </div>
-      </div>
-
-      <!-- Contact Form -->
-      <div class="contact-form-wrapper">
-        <form class="contact-form" id="contactForm">
-          <div class="row">
-            <div class="col-md-6 mb-3">
-              <input type="text" name="from_name" class="form-control contact-input" placeholder="Your Name" required>
-            </div>
-            <div class="col-md-6 mb-3">
-              <input type="email" name="from_email" class="form-control contact-input" placeholder="Your Email" required>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-12 mb-3">
-              <input type="text" name="subject" class="form-control contact-input" placeholder="Subject" required>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-12 mb-4">
-              <textarea name="message" class="form-control contact-input contact-textarea" rows="5" placeholder="Your Message" required></textarea>
-            </div>
-          </div>
-          <div class="text-center">
-            <button type="submit" class="btn-submit">Send Message</button>
-          </div>
-        </form>
-      </div>
-    </div>  
-  </section>
-
-  <!-- FOOTER -->
-  <footer class="footer-section">
-    <div class="container">
-      <div class="row footer-content">
-        <div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
-          <h5 class="footer-title">Dzaki</h5>
-          <p class="footer-desc">Informatics Engineering Student with passion for web development and front-end design.</p>
-          <div class="footer-social">
-            <a href="https://www.instagram.com/mdzakin_/" target="_blank" class="social-link">Instagram</a>
-            <a href="https://github.com/mdzakin26/" target="_blank" class="social-link">GitHub</a>
-            <a href="https://www.linkedin.com/in/muhammad-dzaki-naufalianto-398829296/" target="_blank" class="social-link">LinkedIn</a>
-          </div>
-        </div>
-        <div class="col-lg-2 col-md-6 mb-4 mb-lg-0">
-          <h5 class="footer-title">Quick Links</h5>
-          <ul class="footer-links">
-            <li><a href="#about">About</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#timeline">Timeline</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#contact">Contact</a></li>
-          </ul>
-        </div>
-        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-          <h5 class="footer-title">Contact Me</h5>
-          <p class="footer-contact"><a href="mailto:dzakinaufal1126@gmail.com">dzakinaufal1126@gmail.com</a></p>
-        </div>
-        <div class="col-lg-3 col-md-6">
-          <h5 class="footer-title">Skills</h5>
-          <p class="footer-skills">HTML • CSS • JavaScript • Python • Laravel • Php • Vue.js </p>
-        </div>
-      </div>
-      <div class="footer-divider"></div>
-      <div class="footer-bottom">
-        <p>&copy; 2026 Muhammad Dzaki Naufalianto. All rights reserved.</p>
+       
       </div>
     </div>
   </footer>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/index.min.js"></script>
-  <script type="text/javascript">
-    (function(){
-      emailjs.init("2pKRk6JOFc4tZvz_x");
-    })();
-  </script>
-  <script>
-    document.getElementById('contactForm').addEventListener('submit', function(e) {
-      e.preventDefault();
-      
-      const btn = this.querySelector('.btn-submit');
-      const originalText = btn.textContent;
-      btn.textContent = 'Sending...';
-      btn.disabled = true;
-      
-      emailjs.sendForm('service_0q0vy5c', 'template_hs5owug', this)
-        .then(function() {
-          alert('Email sent successfully!');
-          document.getElementById('contactForm').reset();
-          btn.textContent = originalText;
-          btn.disabled = false;
-        }, function(error) {
-          alert('Failed to send email: ' + error.text);
-          btn.textContent = originalText;
-          btn.disabled = false;
-        });
-    });
-  </script>
-  <script src="script.js"></script>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/typed.js/typed.umd.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
 </body>
+
 </html>
+
